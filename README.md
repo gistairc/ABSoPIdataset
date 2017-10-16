@@ -12,16 +12,16 @@ We have picked up the photovoltaic power plants listed on [the website of Electr
 ![fig:ABSoPI image patch example](https://github.com/gistairc/ABSoPIdataset/blob/master/fig.jpg "megasolar image patch example")  
 
 
-These patch images are classified as “positives” if the solar panels cover more than 20% of the total areas, while patches with no solar panels are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. This initial dataset (V1), however, is contaminated by small-scale plants not included in the original inventory. 
+These patch images are classified as “positives” if the solar panels cover more than 20% of the total areas, while patches with no solar panels are classified as “negatives”. The rest with the intermediate coverage (0~20%) were neither “positives” and “negatives”. 
 
 
-You can download the MUSIC dataset with two different format (HDF5 and GeoTiff) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
+You can download the MUSIC for P3 dataset with two different format (HDF5 and GeoTiff) along with the source code for the detection and classification. More detailed exaplanations can be found in the following papers.
 
 [1] *Tomohiro Ishii, Edgar Simo-Serra, Satoshi Iizuka, Yoshihiko Mochizuki, Akihiro Sugimoto, Ryosuke Nakamura, Hiroshi Ishikawa ,"Detection by Classification of Buildings in Multispectral Satellite Imagery," ICPR 2016.* (http://www.f.waseda.jp/hfs/IshiiICPR2016.pdf)  
 
 [2] *Nevrez Imamoglu, Motoki Kimura, Hiroki Miyamoto, Aito Fujita, Ryosuke Nakamura,"Solar Power Plant Detection on Multi-Spectral Satellite Imagery using Weakly-Supervised CNN with Feedback Features and m-PCNN Fusion," BMVC 2017.* (https://arxiv.org/abs/1704.06410)  
 
-After publishing these papers, we have checked all the false positives through in-situ survey or high-resolution imagery. In fact,  some of "false positives" are found to be relatievely small photovoltaic power plants unlisted in the original database. We corrected these misclassification and produced updated V2 dataset. It should be noted that the performance of our previous works was estimated with  V1 dataset, but more accurate estimate can be achieved by using V2.
+It should be noted here that the initial dataset (V1) is contaminated by small-scale plants not included in the original inventory. After publishing these papers, we have checked all the false positives through in-situ survey or high-resolution imagery. In fact, some of "false positives" are found to be relatievely small photovoltaic power plants unlisted in the original database. We produced updated V2 dataset by correcting these misclassification. The performance of our previous works was estimated with  V1 dataset, but more accurate estimate can be achieved by using V2.
 
 
 
