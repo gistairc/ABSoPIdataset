@@ -1,6 +1,7 @@
-#  **MU**ltiband **S**atellite **I**magery for object  **C**lassification  (**MUSIC**) dataset  
+#  MUSIC for P3 dataset  
 
 ## Overview
+**MU**ltiband **S**atellite **I**magery for object  **C**lassification  for **P**hotoviltaic **P**ower **P**lants (**MUSIC for P3**) dataset  
 
 
 The number of photoviltaic power plants is growing so rapidly that we need to rely on satellitel observations and efficient machine learning methods for the global monitoring. AAAA  is a  training and validation dataset by  AIST (正式名称) to support global survey of solar power plants all over the world.  
