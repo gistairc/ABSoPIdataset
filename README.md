@@ -10,7 +10,7 @@ The source data is the multiband imagery taken by Landsat 8 satellite （リン�
 
 We have picked up the location of all the solar power plants on（WEB の URL） which generates more than 5MW electricity and the construction had been completed by 2015. The multiband images of these target area, taken by Landsat-8, were cropped into a 16 × 16 grid covering a 480 × 480 meter area.  
 
-![fig:ABSoPI image patch example](https://github.com/hmiyamoto/ABSoPIdataset/blob/master/fig1.jpg "megasolar image patch example")  
+![fig:ABSoPI image patch example](https://github.com/gistairc/ABSoPIdataset/blob/master/fig.jpg "megasolar image patch example")  
 
 
 Landsat 8の説明 リンクはっとけばいいのでは？  
