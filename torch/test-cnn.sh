@@ -3,12 +3,12 @@
 LIST=test_hdf5_list.txt
 
 
-DATA_PATH=`./resource`
+DATA_PATH='./resource'
 MODE=ishiinet
 
-NETWORK_PATH=./${MODEL}_p1n${i}
-NETWORK=`cnn_nm_ep1930.net`
-OUTPUT_NETWORK=`cnn_nm_ep1930_cpu.net`
+NETWORK_PATH=./${MODEL}_p1n15
+NETWORK='cnn_nm_ep2000.net'
+OUTPUT_NETWORK='cnn_nm_ep2000_cpu.net'
 
 th convertGPUToCPU.lua \
     -network ${NETWORK_PATH}/${NETWORK} \
@@ -24,7 +24,7 @@ do
             -testBatchSize 4000 \
             -network ${NETWORK_PATH}/${OUTPUT_NETWORK} \
             -threshold ${THRESHOLD} \
-            -trainnorm ${MODEL}_meanstd.csv \
+            -meanstd_file ${MODEL}_meanstd.csv \
             | tee ${NETWORK_PATH}/log_th${THRESHOLD}_${HDF5}.txt
     done
 
