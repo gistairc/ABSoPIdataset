@@ -1,9 +1,9 @@
-# ABSoPIdataset# AIST Big Solar Panel Image in Japan (ABSoPI)  (タイトル未定)
+# ABSoPI dataset# AIST Big Solar Panel Image in Japan (ABSoPI)  (タイトル未定)
 ## Overview
  **A**IST **B**ig **So**lar **P**anel **I**mage (**ABSoPI**) dataset using satellite imagery in Japan.  
 
 
-The number of solar power plants is growing so globally and rapidly that we need to rely on satellitel observations and efficient machine learning methods for the monitoring. AAAA  is a  training and validation dataset by  AIST (正式名称) to support global survey of solar power plants all over the world.  
+The number of photoviltaic power plants is growing so rapidly that we need to rely on satellitel observations and efficient machine learning methods for the global monitoring. AAAA  is a  training and validation dataset by  AIST (正式名称) to support global survey of solar power plants all over the world.  
 
 
 The source data is the multiband imagery taken by Landsat 8 satellite （リンク） and .the detailed description can be found in Ishii et al. (ICPR paper)  
