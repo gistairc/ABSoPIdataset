@@ -103,7 +103,7 @@ FOR EXAMPLE
 		test-cnn.lua
 		test-cnn.sh ...
 ```
-C
+
 #### Training
 For trainging, type the followingin the terminal.  
 
