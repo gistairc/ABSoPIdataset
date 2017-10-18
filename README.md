@@ -30,7 +30,7 @@ It should be noted here that the "negatives" in the initial dataset (V1) is cont
 
 
 #### hdf5
-HDF5 version (for using Torch version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_hdf.zip) (4.6GB) .  
+HDF5 version (for using Torch version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_hdf.zip) (4.6GB) .  
 Or type the following in the terminal.  
 
 ```
@@ -53,7 +53,7 @@ test/
 ```
 
 #### tiff
-Tiff version (for using Chainer version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_tiff.zip) (4.2GB) .  
+Tiff version (for using Chainer version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/MUSIC4P3dataset/MUSIC4P3data_tiff.zip) (4.2GB) .  
 Or type the following  in the terminal.  
 ```
 $ wget http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_tiff.zip
