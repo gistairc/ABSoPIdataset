@@ -38,7 +38,7 @@ $ wget http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_hdf.zip
 $ unzip ABSoPIdata_hdf.zip
 ```
 
-Schematic of the directory configuration in the unzipped files is as follows:  
+The directory configuration in the unzipped folder:  
 ```
 ./resource/
 train/  
@@ -54,12 +54,12 @@ test/
 
 #### tiff
 Tiff version (for using Chainer version code) of the dataset can be downloaded from [here](http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_tiff.zip) (4.2GB) .  
-Or type the following in the terminal.  
+Or type the following  in the terminal.  
 ```
 $ wget http://data.airc.aist.go.jp/ABSoPIdataset/ABSoPIdata_tiff.zip
 $ unzip ABSoPIdata_tiff.zip
 ```
-Schematic of the directory configuration in the unzipped files is as follows:  
+The directory configuration in the unzipped files is as follows:  
 ```
 ./resource/
 train/
@@ -92,7 +92,7 @@ test/
 For torch installition see http://torch.ch/  
 * torch_toolbox  
 Download from https://github.com/e-lab/torch-toolbox  
-Unzip it and put on it same directory.  
+Unzip and put the it on the same directory.  
 ```
 FOR EXAMPLE
 	<dir>torch/
@@ -103,45 +103,42 @@ FOR EXAMPLE
 		test-cnn.lua
 		test-cnn.sh ...
 ```
- 
-Can be changed by passing in train-cnn.lua line 9.
-
+C
 #### Training
-For trainging, type the following this code in the terminal.  
+For trainging, type the followingin the terminal.  
 
 ```
 $ sh train-cnn.sh
 ```
-Models are saved to "./ishiinet_p1n15/cnn_nm_epXXXX.net" (Can be changed by passing in train-cnn.sh) .  
+Models are saved to "./ishiinet_p1n15/cnn_nm_epXXXX.net" (the output file name is specified in  train-cnn.sh) .  
 
 #### Testing
 
-Type the following command in the terminal.  
+Type the following in the terminal.  
 
 ```
 $ sh test-cnn.sh
 ```
-Result file are saved to "./ishiinet_p1n15/test_th0.999_all_cm.txt".  
-Can be changed by passing in this shell file.  
+Resulting files are saved to "./ishiinet_p1n15/test_th0.999_all_cm.txt".  
 
 
 ### Chainer ver
 #### Requierment
 * Python 2.7.*  
 * Chainer 1.24.*  
-For chainer Installition see from https://chainer.org/  
+For chainer Installition, see from https://chainer.org/  
 
 #### Training
-Type the following this code in the terminal.   
+Type the following in the terminal.   
 
 ```
 $ sh train.sh
 ```
  
-Models are save to ./result/ (Can be changed by passing in this shell file) . 
+Models are save to ./result/ (the output directory is specified in train.sh) . 
 
 #### Testing
-Type the following this code in the terminal.   
+Type the following  in the erminal.   
 
 ```
 $ sh test.sh > result.log
